@@ -1,0 +1,101 @@
+body{
+    font-family:arial,sans-serif;
+    background-color:#f4f4f4;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 80px 60px;
+    flex-wrap: wrap;
+    background-color: #111;
+}
+
+.logo{
+    color:white;
+}
+
+.navlinks{
+    list-style:none;
+    display: flex;
+    gap: 30px;
+}
+
+.navlinks li a{
+    color:white ;
+    text-decoration: none;
+    font-weight:bold;
+    transition: color 0.3s;
+}
+
+.navlinks li a:hover{
+    color: #ff6600;
+}
+
+.feature{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 80px 60px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    padding: 30px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius:10px;
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px)
+}
+
+.hero h1{
+    text-align:center;
+    background-color: #eaeaea;
+    padding: 100px 20px;
+}
+
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.hero .ctabtn{
+    padding: 12px 25px;
+    font-size: 1rem;
+    border:none;
+    background-color: #111;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius:15px
+}
+
+.hero .ctabtn:hover{
+    transform:scale(1.04);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.485)
+}
+
+.hero .ctabtn:active{
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(0,0,0,0)
+}
+
+footer{
+    text-align:center;
+    padding: 20px;
+    background-color: #111;
+    color:white
+}
